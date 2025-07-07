@@ -161,6 +161,7 @@ li a {
     position: relative;
     width: 100%;
     height: 100%;
+    z-index: 99;
 }
 .left-part{
     position: relative;
@@ -405,7 +406,7 @@ background-color:rgba(0,0,0,0)
 }
 
 #portfolio .portfolio-cards .portfolio-cards1:hover .portfolio-layer1{
-  background-color:rgba(0,0,0,0.7)  
+  background-color:rgba(0,0,0,0.6)  
 }
 #portfolio .portfolio-cards .portfolio-cards1 .portfolio-layer1 i{
     position: absolute;

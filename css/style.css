@@ -371,6 +371,7 @@ float: left;
 /*           Portfolio           */
 #portfolio{
     width: 100%;
+    float: left;
     padding: 20px 0;
     margin: 30px 0;
 }
@@ -419,7 +420,10 @@ background-color:rgba(0,0,0,0)
     color: #D7305B;
 }
 #portfolio .portfolio-text {
+    width: 100%;
     text-align: center;
+    position: relative;
+    display: block;
 }
 .portfolio-test{
 list-style: none;
@@ -449,6 +453,7 @@ list-style: none;
   font-weight: bold;
   margin-bottom: 20px;
   position: relative;
+
 }
  .portfolio-text h3::after {
     content: '';
@@ -671,7 +676,7 @@ display: block;
     width: 100%;
     padding: 50px;
     
-    text-align: center;
+   
 }
 #contact-us h2 {
   margin-bottom: 20px;
@@ -679,6 +684,7 @@ display: block;
   color: #222;
   font-weight: bold;
   position: relative;
+   text-align: center;
 }
  #contact-us h2::after {
     content: '';
@@ -700,6 +706,7 @@ display: block;
     background-color: #FF305B;
 
 }
+
 form input,
 form textarea {
   width: 100%;
@@ -715,34 +722,33 @@ form textarea {
   min-height: 100px;
   resize: vertical;
 }
-#contact-us .contact-us-form{
+#contact-us form{
     padding: 15px;
-    margin: 5px;
+    /* margin: 5px; */
 }
 
-.button{
+#contact-us form button{
     width: 25%;
     background-color: #D7305B;
     color: white;
     transition: background-color 0.5s;
+    border: none;
+    border-radius: 4px;
+    padding:0 20px;
+    height: 40px;
 }
-form .button:hover{
+#contact-us form button:hover{
     background-color: #EC2403;
 
 }
-form .floatt input{
- overflow: hidden;
-    margin-bottom: 18px;
-    box-sizing: border-box;
+
+.floatt{
+    float: left;
 }
 
-#contact-us .floatt .width{
-     width: 48%;
-  float: left;
-  box-sizing: border-box;
-  
-margin-right: 4%;
-margin-bottom: 18px;
+#contact-us .width{
+padding: 10px;
+width: 50%;
 }
 #contact-us h2{
     font-family: "Source Sans Pro",sans-serif;

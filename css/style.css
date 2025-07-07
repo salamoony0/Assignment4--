@@ -1,8 +1,5 @@
 /* Global*/
-/* ul,li,a {
-    margin: 0;
-    padding: 0; 
-} */
+
 *{
 box-sizing: border-box;
 }
@@ -119,7 +116,7 @@ li a {
   font-size: 30px;
   color: white;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 600;
+  
   margin-top: 20px;
   font-weight: lighter;
   display: inline-block;
@@ -127,7 +124,7 @@ li a {
 
 .typing-line .typing {
   color: white;
-  font-weight: 700;
+  
   font-weight: lighter;
 }
 
@@ -158,7 +155,7 @@ li a {
     position: absolute;
     top: 15px;
     left: 30px;
-    display:block
+    display:block;
     }
 #second-section .container .left-part .image-area .img-area{
     position: relative;
@@ -174,7 +171,7 @@ li a {
    
 }
 #second-section .left-part .image-area .img-area .imgg-layer .layer-icons {
-    position: absolute;
+position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
@@ -199,6 +196,7 @@ transition: transform 1s;
 }
 #second-section .container .left-part .image-area .img-area:hover .imgg-layer{
     transform: translateY(0);
+    
 }
 #second-section .container .left-part .image-area .img-area .imgg-layer .layer-icons i:hover {
     color: #D7305B;
@@ -210,7 +208,7 @@ transition: transform 1s;
 }
 .second-text{
     width: 100%;
-    float: left;
+    /* float: left; */
     font-family: "Source Sans Pro" , sans-serif ;
 }
 .second-text p{
@@ -269,7 +267,7 @@ background-color: #EC2403;
 background-color: #F1F1F1;
 width: 100%;
 float: left;
-width: 100%;
+
     padding: 20px 0;
     margin: 30px 0;
 
@@ -340,7 +338,7 @@ width: 100%;
     font-weight: bold;
     position: relative;
 }
- .cards h2::after {
+.cards h2::after {
     content: '';
     display: block;
     margin: 10px auto 0;
@@ -516,8 +514,7 @@ padding: 2px;
     position: relative;
     border-radius: 8px;
     margin: auto;
-      position: relative;
-      overflow: hidden;
+    overflow: hidden;
       
 }
 
@@ -741,8 +738,6 @@ form .floatt input{
 #contact-us .floatt .width{
      width: 48%;
   float: left;
-  margin-right: 4%;
-  margin-bottom: 0;
   box-sizing: border-box;
   
 margin-right: 4%;
